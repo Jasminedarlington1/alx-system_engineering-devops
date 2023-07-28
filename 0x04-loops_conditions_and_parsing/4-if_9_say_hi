@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#condition if and while loop
+a=1
+while [ $a -le 10 ]
+do
+	echo "Best School"
+	if [ $a == 9 ]
+	then
+		echo "Hi"
+	fi
+	((a++))
+done
